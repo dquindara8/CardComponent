@@ -25,7 +25,7 @@ The designs were created to the following widths:
 
 ### Links
 
-- Solution URL: [Solution URL](https://dquindara8.github.io/SinglePriceGrid/)
+- Solution URL: [Add solution URL here](https://dquindara8.github.io/SinglePriceGrid/)
 
 
 
