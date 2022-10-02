@@ -103,6 +103,7 @@ span {
     .flex-container {
         display: flex;
         flex-direction: column;    
+        justify-content: center;
     }
 
     img {
@@ -127,16 +128,17 @@ span {
     .flex-container {
         display: flex;
         flex-direction: column;    
+        justify-content: center;
     }
 
     img {
         width: 75%;
-        max-height: 300px;
+        max-height: 250px;
     }
 
     .box2 {
         width: 75%;
-        max-height: 280px;
+        max-height: 250px;
 
         line-height: 0.7;
         padding: 10px 15px;
@@ -152,6 +154,7 @@ span {
     .flex-container {
         display: flex;
         flex-direction: column;    
+        justify-content: center;
     }
 
     img {
