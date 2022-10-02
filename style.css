@@ -1,184 +1,171 @@
 :root {
-    --primary: hsl(228, 12%, 48%);
-    --main: hsl(212, 21%, 14%);
-    --light: hsl(0, 0%, 100%);
-    --dark: hsl(158, 36%, 37%);
+  --primary: hsl(228, 12%, 48%);
+  --main: hsl(212, 21%, 14%);
+  --light: hsl(0, 0%, 100%);
+  --dark: hsl(158, 36%, 37%);
 }
 
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-size: 14px;
-    line-height: 1.4;
-  
+body {
+  font-size: 14px;
+  line-height: 1.4;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 120px;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 120px;
 }
 
 img {
-    flex-basis: 20%;
-    height: 350px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+  flex-basis: 20%;
+  height: 350px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 
 .box2 {
-    flex-basis: 20%;
-    height: 350px;
-    line-height: 1.2;    
+  flex-basis: 20%;
+  height: 350px;
+  line-height: 1.2;
 
-    background-color: white;
-    padding: 32px 26px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+  background-color: white;
+  padding: 32px 26px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .para1 {
-    color: var(--primary);
-    font-size: x-small;
-    font-family: 'Montserrat', sans-serif;
-
+  color: var(--primary);
+  font-size: x-small;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-    line-height: 1;
-    color: var(--main);
-    font-weight: 700;
-    font-family: 'Fraunces', serif;
-
+  line-height: 1;
+  color: var(--main);
+  font-weight: 700;
+  font-family: "Fraunces", serif;
 }
 
 .para2 {
-    color: var(--primary);
-    font-family: 'Montserrat', sans-serif;
-    font-size: smaller;
-    line-height: 1.7;
+  color: var(--primary);
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+  line-height: 1.7;
 }
 
 .para3 {
-    color: var(--dark);
-    font-family: 'Fraunces', serif;
-    font-size: x-large;
-    display: inline;
+  color: var(--dark);
+  font-family: "Fraunces", serif;
+  font-size: x-large;
+  display: inline;
 }
 
 span {
-    font-size: smaller;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: line-through;
-    color: var(--primary);
-    position: relative;
-    bottom: 4px;
-
+  font-size: smaller;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: line-through;
+  color: var(--primary);
+  position: relative;
+  bottom: 4px;
 }
 
 .button {
-    margin-top: 5px;
-    padding: 12px 48px;
+  margin-top: 5px;
+  padding: 12px 48px;
 
-    background-color: var(--dark);
-    color: white;
-    border: 0px solid;
-    border-radius: 6px;
-    cursor: pointer;
+  background-color: var(--dark);
+  color: white;
+  border: 0px solid;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 .button:hover {
-    background-color: rgb(17, 37, 29);
+  background-color: rgb(17, 37, 29);
 }
 
-
 @media (min-width: 1281) and (max-width: 1440) {
-    .flex-container {
-        display: flex;
-        flex-direction: column;    
-        justify-content: center;
-    }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    img {
-        width: 70%;
-        max-height: 280px;
-    }
+  img {
+    width: 70%;
+    max-height: 280px;
+  }
 
-    .box2 {
-        width: 70%;
-        max-height: 280px;
+  .box2 {
+    width: 70%;
+    max-height: 280px;
 
-        line-height: 0.7;
-        padding: 20px 15px;
-    }
+    line-height: 0.7;
+    padding: 20px 15px;
+  }
 
-    .button {
-        padding: 6px 58px;
-    }  
+  .button {
+    padding: 6px 58px;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
-    .flex-container {
-        display: flex;
-        flex-direction: column;    
-        margin-left: 85px;
-        margin-top: 80px;
-    }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    margin-top: 80px;
+  }
 
-    img {
-        width: 75%;
-        max-height: 250px;
-    }
+  img {
+    width: 75%;
+    max-height: 250px;
+  }
 
-    .box2 {
-        width: 75%;
-        max-height: 250px;
+  .box2 {
+    width: 75%;
+    max-height: 250px;
 
-        line-height: 0.7;
-        padding: 10px 15px;
-    }
+    line-height: 0.7;
+    padding: 10px 15px;
+  }
 
-    .button {
-        padding: 4px 48px;
-    }
+  .button {
+    padding: 4px 48px;
+  }
 }
-
 
 @media (min-width: 320px) and (max-width: 375px) {
-    .flex-container {
-        display: flex;
-        flex-direction: column;    
-        justify-content: center;
-        margin-left: 85px;
-        margin-top: 30px;
-    }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 85px;
+    margin-top: 30px;
+  }
 
-    img {
-        width: 75%;
-        max-height: 300px;
-    }
+  img {
+    width: 75%;
+    max-height: 300px;
+  }
 
-    .box2 {
-        width: 75%;
-        max-height: 280px;
+  .box2 {
+    width: 75%;
+    max-height: 280px;
 
-        line-height: 0.7;
-        padding: 10px 15px;
-    }
+    line-height: 0.7;
+    padding: 10px 15px;
+  }
 
-    .button {
-        padding: 5px 35px;
-    }
-
+  .button {
+    padding: 5px 35px;
+  }
 }
-
-
-
-
