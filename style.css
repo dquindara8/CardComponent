@@ -123,6 +123,31 @@ span {
     }  
 }
 
+@media (min-width: 376px) and (max-width: 768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;    
+    }
+
+    img {
+        width: 75%;
+        max-height: 300px;
+    }
+
+    .box2 {
+        width: 75%;
+        max-height: 280px;
+
+        line-height: 0.7;
+        padding: 10px 15px;
+    }
+
+    .button {
+        padding: 6px 58px;
+    }
+}
+
+
 @media (min-width: 320px) and (max-width: 375px) {
     .flex-container {
         display: flex;
