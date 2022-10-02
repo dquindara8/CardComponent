@@ -41,7 +41,8 @@ The designs were created to the following widths:
 
 I have learnt how to make a more responsive web page and view by using @media rule.
 
-```@media only screen and (min-width: 320px) and (max-width: 375px) {
+```
+@media only screen and (min-width: 320px) and (max-width: 375px) {
   .flex-container {
     
   }
