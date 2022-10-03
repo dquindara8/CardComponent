@@ -58,5 +58,5 @@ I want to continue improvement on making webpages responsive to various screens 
 ## Author
 
 - Frontend Mentor - [@dquindara8](https://www.frontendmentor.io/profile/dquindara8)
-- Twitter - [@QuindaraC](https://twitter.com/home)
+- Twitter - [@QuindaraC](https://twitter.com/thepennyhoarder/status/1512100541521874944?s=20&t=uDxIf5x2yRBuJmRZI3DKmA)
 
