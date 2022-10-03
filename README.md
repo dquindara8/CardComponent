@@ -34,7 +34,6 @@ The designs were created to the following widths:
 - HTML5
 - CSS custom properties
 - Flexbox
-- [Styled Components](https://fonts.googleapis.com) - For text
 
 
 ### What I learned
